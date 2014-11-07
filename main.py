@@ -3,6 +3,7 @@ import math
 import operator
 import networkx as nx
 
+#jaccard
 def Jaccard(node1, node2):
     node1Neighbor = G.neighbors(node1)
     node2Neighbor = G.neighbors(node2)
